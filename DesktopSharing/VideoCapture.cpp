@@ -5,7 +5,7 @@
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "d3d11.lib")
 #pragma comment(lib, "d3dcompiler.lib")
-#pragma comment(lib, "screencapture.lib")
+//#pragma comment(lib, "screencapture.lib")
 
 using namespace std;
 

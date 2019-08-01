@@ -87,6 +87,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\libs\screen_capture\src\Base.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\ScreenCapture.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\Types.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\Utils.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\win\ScreenCaptureDuplicateOutputDirect3D11.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\win\ScreenCapturePointerDirect3D11.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\win\ScreenCaptureRendererDirect3D11.cpp" />
+    <ClCompile Include="..\libs\screen_capture\src\win\ScreenCaptureUtilsDirect3D11.cpp" />
     <ClCompile Include="AACEncoder.cpp" />
     <ClCompile Include="AudioCapture.cpp" />
     <ClCompile Include="DesktopSharing.cpp" />
@@ -125,6 +133,15 @@
     <ClCompile Include="xop\RtspServer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\Base.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\ScreenCapture.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\ScreenCaptureGL.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\Types.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\Utils.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\win\ScreenCaptureDuplicateOutputDirect3D11.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\win\ScreenCapturePointerDirect3D11.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\win\ScreenCaptureRendererDirect3D11.h" />
+    <ClInclude Include="..\libs\screen_capture\include\screencapture\win\ScreenCaptureUtilsDirect3D11.h" />
     <ClInclude Include="AACEncoder.h" />
     <ClInclude Include="AudioCapture.h" />
     <ClInclude Include="DesktopSharing.h" />
